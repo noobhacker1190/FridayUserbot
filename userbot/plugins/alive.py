@@ -13,11 +13,12 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("**MY STATUS** \n`FRIDAY IS:` **✅ Alive**\n\n"
+    await alive.edit("**MY STATUS** \n`JARVIS IS:` **✅ Alive**\n\n"
                      "`TELETHON VERSION:` **6.0.9**\n`Python:` **3.7.4**\n"
                      "`DATABASE STATUS:` **ALL NORMAL! WORKING FINE 🙂**\n`NO PROBLEM FOUND🔥!\n`"
-                     "`F.R.I.D.A.Y VERSION`: [2.0 FRIDAY OS](https://telegra.ph/FRIDAY-06-15)\n"
+                     "`J.A.R.V.I.S VERSION`: [2.0 JARVIS OS](https://t.me/VIKRAMADITYA1190)\n"
                      f"`MY BOSS`: {DEFAULTUSER}\n\n"
                      "ALWAYS WITH YOU MY BOSS\n\n"
-                     "[⚡DEPLOY FRIDAY⚡](https://github.com/StarkGang/FRIDAYUserbot)") 
+                     "WANT THIS USERBOT\n\n"
+                     "[⚡CONTACT 🅅🄸🄺🅁🄰🄼🄰🄳🄸🅃🅈🄰⚡](https://t.me/VIKRAMADITYA1190)") 
 
